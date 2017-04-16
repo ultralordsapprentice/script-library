@@ -1,5 +1,4 @@
-rem @echo off
-
+@echo off
 
 set packname=ZOBEC Consulting Script Tools 2014
 set prodname=Get Date and Time
@@ -16,7 +15,7 @@ set comment3=web: www.michalzobec.cz
 :: 100102.1 vytvoreni skriptu.
 :: 130602.1 oprava problemu pri volani z task scheduleru.
 :: 140805.1 small modifications for SolarWinds.
-:: 170416.1 small update.
+:: 170416.1 small update, public version.
 ::
 
 if not "%1"=="-call" setlocal enabledelayedexpansion
