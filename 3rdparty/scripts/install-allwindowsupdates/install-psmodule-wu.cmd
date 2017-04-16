@@ -1,0 +1,2 @@
+if not exist %WINDIR%\System32\WindowsPowerShell\v1.0\Modules\PSWindowsUpdate\ mkdir %WINDIR%\System32\WindowsPowerShell\v1.0\Modules\PSWindowsUpdate\
+xcopy PSWindowsUpdate\*.* %WINDIR%\System32\WindowsPowerShell\v1.0\Modules\PSWindowsUpdate\ /y
